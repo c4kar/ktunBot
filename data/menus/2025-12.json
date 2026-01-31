@@ -1,0 +1,399 @@
+{
+    "year": 2025,
+    "month": "Aralık",
+    "generatedAt": "2025-12-14T21:21:00+03:00",
+    "menu": [
+        {
+            "date": "01 Aralık",
+            "dayOfWeek": "Pazartesi",
+            "mealType": "öğle",
+            "foods": [
+                "Mercimek Çorbası",
+                "Et Döner",
+                "Baharatlı Bulgur",
+                "Ayran"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "02 Aralık",
+            "dayOfWeek": "Salı",
+            "mealType": "öğle",
+            "foods": [
+                "Mantar Çorbası",
+                "Nohut",
+                "Şehriyeli Pirinç Pilavı",
+                "Revani"
+            ],
+            "totalcalorie": "1000 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "03 Aralık",
+            "dayOfWeek": "Çarşamba",
+            "mealType": "öğle",
+            "foods": [
+                "Köfte Ekmek Günü"
+            ],
+            "totalcalorie": "1200 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "04 Aralık",
+            "dayOfWeek": "Perşembe",
+            "mealType": "öğle",
+            "foods": [
+                "Domates Çorbası",
+                "Ispanak Borani",
+                "Soslu Makarna",
+                "Kase Yoğurt"
+            ],
+            "totalcalorie": "1000 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "05 Aralık",
+            "dayOfWeek": "Cuma",
+            "mealType": "öğle",
+            "foods": [
+                "Ezogelin Çorbası",
+                "Çiftlik Kebabı",
+                "Nohutlu Pirinç Pilavı",
+                "Saç Arası"
+            ],
+            "totalcalorie": "1210 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "06 Aralık",
+            "dayOfWeek": "Cumartesi",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "07 Aralık",
+            "dayOfWeek": "Pazar",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "08 Aralık",
+            "dayOfWeek": "Pazartesi",
+            "mealType": "öğle",
+            "foods": [
+                "Yoğurt Çorbası",
+                "Kuru Fasulye",
+                "Şehriyeli Pirinç Pilavı",
+                "Halka Tatlısı"
+            ],
+            "totalcalorie": "1040 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "09 Aralık",
+            "dayOfWeek": "Salı",
+            "mealType": "öğle",
+            "foods": [
+                "Arabaşı Çorbası",
+                "Etli Biber Dolma",
+                "Su Böreği",
+                "Yoğurt + Höşmerim"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "10 Aralık",
+            "dayOfWeek": "Çarşamba",
+            "mealType": "öğle",
+            "foods": [
+                "Tarhana Çorbası",
+                "Patlıcan Kebap",
+                "Naneli Bulgur Pilavı",
+                "Semizotlu Yoğurt"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "11 Aralık",
+            "dayOfWeek": "Perşembe",
+            "mealType": "öğle",
+            "foods": [
+                "Ezogelin Çorbası",
+                "Fırın Baget",
+                "Üzümlü Pirinç Pilavı",
+                "İçecek"
+            ],
+            "totalcalorie": "1000 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "12 Aralık",
+            "dayOfWeek": "Cuma",
+            "mealType": "öğle",
+            "foods": [
+                "Mercimek Çorbası",
+                "Ekşili Köfte",
+                "Soslu Makarna",
+                "Meyve"
+            ],
+            "totalcalorie": "1050 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "13 Aralık",
+            "dayOfWeek": "Cumartesi",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "14 Aralık",
+            "dayOfWeek": "Pazar",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "15 Aralık",
+            "dayOfWeek": "Pazartesi",
+            "mealType": "öğle",
+            "foods": [
+                "Yayla Çorbası",
+                "Pilav Üstü Kavurma",
+                "İrmik Helvası",
+                "İçecek"
+            ],
+            "totalcalorie": "1200 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "16 Aralık",
+            "dayOfWeek": "Salı",
+            "mealType": "öğle",
+            "foods": [
+                "Arabaşı Çorbası",
+                "Karnabahar Tava",
+                "Soslu Makarna",
+                "Kase Yoğurt"
+            ],
+            "totalcalorie": "1000 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "17 Aralık",
+            "dayOfWeek": "Çarşamba",
+            "mealType": "öğle",
+            "foods": [
+                "Şefin Çorbası",
+                "Nokta Burger",
+                "Patates Kızartması",
+                "İçecek"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "18 Aralık",
+            "dayOfWeek": "Perşembe",
+            "mealType": "öğle",
+            "foods": [
+                "Köylü Çorbası",
+                "Orbit Fasulye",
+                "Tel Şehriyeli Bulgur Pilavı",
+                "Supangle"
+            ],
+            "totalcalorie": "1000 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "19 Aralık",
+            "dayOfWeek": "Cuma",
+            "mealType": "öğle",
+            "foods": [
+                "Ezogelin Çorbası",
+                "Tavuk Tantuni",
+                "Nohutlu Pirinç Pilavı",
+                "Söğüş + Ayran"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "20 Aralık",
+            "dayOfWeek": "Cumartesi",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "21 Aralık",
+            "dayOfWeek": "Pazar",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "22 Aralık",
+            "dayOfWeek": "Pazartesi",
+            "mealType": "öğle",
+            "foods": [
+                "Mercimek Çorbası",
+                "Balık Tava",
+                "Spagetti",
+                "Helva + Yeşillik"
+            ],
+            "totalcalorie": "1180 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "23 Aralık",
+            "dayOfWeek": "Salı",
+            "mealType": "öğle",
+            "foods": [
+                "Tarhana Çorbası",
+                "Kıymalı Patates Yemeği",
+                "Börek",
+                "Aşure"
+            ],
+            "totalcalorie": "1050 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "24 Aralık",
+            "dayOfWeek": "Çarşamba",
+            "mealType": "öğle",
+            "foods": [
+                "Közbiber Çorbası",
+                "Mantar Soslu Piliç",
+                "Sade Pilav",
+                "Mevsim Salata"
+            ],
+            "totalcalorie": "1030 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "25 Aralık",
+            "dayOfWeek": "Perşembe",
+            "mealType": "öğle",
+            "foods": [
+                "Yarma Çorbası",
+                "Kuru Fasulye",
+                "Meyan Pilavı",
+                "Cacık"
+            ],
+            "totalcalorie": "1010 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "26 Aralık",
+            "dayOfWeek": "Cuma",
+            "mealType": "öğle",
+            "foods": [
+                "Ezogelin Çorbası",
+                "Etliekmek",
+                "Mevsim Salata",
+                "Ayran"
+            ],
+            "totalcalorie": "1200 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "27 Aralık",
+            "dayOfWeek": "Cumartesi",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "28 Aralık",
+            "dayOfWeek": "Pazar",
+            "mealType": "",
+            "foods": [],
+            "totalcalorie": "",
+            "closed": true,
+            "closedReason": "Hafta sonu"
+        },
+        {
+            "date": "29 Aralık",
+            "dayOfWeek": "Pazartesi",
+            "mealType": "öğle",
+            "foods": [
+                "Tavuksuyu Çorbası",
+                "Etli Nohut",
+                "Şehriyeli Pirinç Pilavı",
+                "Dilim Pasta"
+            ],
+            "totalcalorie": "1100 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "30 Aralık",
+            "dayOfWeek": "Salı",
+            "mealType": "öğle",
+            "foods": [
+                "Mercimek Çorbası",
+                "Fırın Bud",
+                "Erişte",
+                "Salata"
+            ],
+            "totalcalorie": "1050 KKAL",
+            "closed": false,
+            "closedReason": ""
+        },
+        {
+            "date": "31 Aralık",
+            "dayOfWeek": "Çarşamba",
+            "mealType": "öğle",
+            "foods": [
+                "Yoğurt Çorbası",
+                "Mitite Köfte",
+                "Soslu Makarna",
+                "İçecek"
+            ],
+            "totalcalorie": "1110 KKAL",
+            "closed": false,
+            "closedReason": ""
+        }
+    ],
+    "confidence": "high"
+}

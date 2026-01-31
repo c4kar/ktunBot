@@ -1,0 +1,4 @@
+# .gitignore generated to exclude environment files
+# Prevent .env files from being tracked by git
+.env
+
