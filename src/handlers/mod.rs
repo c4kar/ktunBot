@@ -1,0 +1,11 @@
+pub mod about;
+pub mod announcements;
+pub mod cafeteria;
+pub mod calendar;
+pub mod department;
+pub mod schedule;
+pub mod start;
+pub mod utility;
+pub mod magnum;
+pub mod intake;
+pub mod search;

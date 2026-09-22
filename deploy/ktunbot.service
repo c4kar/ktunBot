@@ -1,0 +1,20 @@
+[Unit]
+Description=ktunBot Telegram Bot (Rust)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/ktunbot/target/release/ktunbot
+EnvironmentFile=/etc/ktunbot/ktunbot.env
+Restart=on-failure
+RestartSec=5
+User=ktunbot
+WorkingDirectory=/opt/ktunbot
+
+# Security measures
+ProtectSystem=full
+NoNewPrivileges=yes
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

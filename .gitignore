@@ -1,4 +1,23 @@
-# .gitignore generated to exclude environment files
 # Prevent .env files from being tracked by git
 .env
+.env.*
+!.env.example
 
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Databases and cache
+*.db
+*.db-shm
+*.db-wal
+data/*.db
+
+# CodeGraph & IDE
+.codegraph/
+.idea/
+.vscode/
+
+# Python remnants
+__pycache__/
+*.pyc
