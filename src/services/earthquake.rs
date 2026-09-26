@@ -130,9 +130,10 @@ impl EarthquakeService {
             return Ok(cached);
         }
 
+        let url = std::env::var("KANDILLI_URL").unwrap_or_else(|_| KANDILLI_URL.to_string());
         let bytes = self
             .client
-            .get(KANDILLI_URL)
+            .get(&url)
             .send()
             .await
             .context("Kandilli Rasathanesi bağlantısı kurulamadı")?

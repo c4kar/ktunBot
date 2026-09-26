@@ -4,6 +4,7 @@ use crate::services::Services;
 use std::sync::Arc;
 use teloxide::prelude::*;
 use teloxide::types::{InlineKeyboardButton, InlineKeyboardMarkup, InputFile, ParseMode};
+use teloxide::utils::html::escape;
 use tracing::{info, warn};
 
 pub fn magnum_menu_keyboard(courses: &[(&'static str, &'static str)]) -> InlineKeyboardMarkup {
@@ -125,7 +126,7 @@ pub async fn handle_magnum_delivery(
             format!(
                 "⏳ <b>{}</b> için Magnum Opus kılavuzu derleniyor...\n\
                 <i>Sistemdeki dağınık öğrenci notları ve çıkmış sorular taranıyor, lütfen bekleyin (10-15 sn).</i>",
-                query_clean.to_uppercase()
+                escape(&query_clean.to_uppercase())
             ),
         )
         .parse_mode(ParseMode::Html)
@@ -153,7 +154,7 @@ pub async fn handle_magnum_delivery(
                 "❌ <b>Ders Notu Bulunamadı</b>\n\n\
                 '<b>{}</b>' dersi için henüz sisteme yüklenmiş yeterli ders notu bulunmuyor veya derleme başarısız oldu.\n\n\
                 💡 Mevcut hazır paketleri görmek için aşağıdaki butonu kullanabilirsiniz:",
-                query_clean
+                escape(query_clean)
             );
 
             let retry_kb = InlineKeyboardMarkup::new(vec![vec![

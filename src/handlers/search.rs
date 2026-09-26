@@ -42,14 +42,31 @@ pub async fn handle_search(
     let search_button_url = reqwest::Url::parse(KTUNOT_SEARCH_URL)
         .unwrap_or_else(|_| reqwest::Url::parse("https://ktunot.net.tr").unwrap());
 
+    let safe_cb_query = if clean_query.len() > 50 {
+        let mut end = 50;
+        while end > 0 && !clean_query.is_char_boundary(end) {
+            end -= 1;
+        }
+        &clean_query[..end]
+    } else {
+        clean_query
+    };
+
+    let btn_title = if clean_query.chars().count() > 25 {
+        let short: String = clean_query.chars().take(22).collect();
+        format!("📖 \"{}...\" Magnum İndir", short)
+    } else {
+        format!("📖 \"{}\" Magnum Kılavuzu İndir", clean_query)
+    };
+
     let keyboard = InlineKeyboardMarkup::new(vec![
         vec![InlineKeyboardButton::url(
             "🌐 ktünNot'ta Notları Gör",
             search_button_url,
         )],
         vec![InlineKeyboardButton::callback(
-            format!("📖 \"{}\" Magnum Kılavuzu İndir", clean_query),
-            format!("magnum_get:{}", clean_query),
+            btn_title,
+            format!("magnum_get:{}", safe_cb_query),
         )],
         vec![
             InlineKeyboardButton::callback("📤 Not Yükle (+2)", "upload_help"),

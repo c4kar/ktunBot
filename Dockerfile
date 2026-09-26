@@ -22,9 +22,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates libssl3 curl python3 && \
     rm -rf /var/lib/apt/lists/*
 
+RUN groupadd -g 10001 ktunbot && \
+    useradd -u 10001 -g ktunbot -s /bin/bash -m ktunbot
+
 WORKDIR /app
+RUN chown -R ktunbot:ktunbot /app
 
 COPY --from=builder /usr/src/ktunbot/target/release/ktunbot /usr/local/bin/ktunbot
+
+USER ktunbot
 
 ENV RUST_LOG=info
 CMD ["ktunbot"]

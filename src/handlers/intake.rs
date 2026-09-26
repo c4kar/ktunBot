@@ -5,6 +5,7 @@ use std::sync::Arc;
 use teloxide::net::Download;
 use teloxide::prelude::*;
 use teloxide::types::{Document, ParseMode, PhotoSize};
+use teloxide::utils::html::escape;
 use tracing::{error, info};
 
 pub async fn handle_upload_help(bot: &Bot, chat_id: ChatId) -> ResponseResult<()> {
@@ -184,10 +185,10 @@ async fn process_file_intake(
         • 🗂️ Vektörel Benzerlik & Kopya Filtresi (Qdrant)\n\
         • ⭐️ Akademik Kalite ve Okunabilirlik Puanlaması\n\n\
         <i>Notunuz kabul edildiğinde Magnum Opus derleme havuzuna dahil edilecek ve hesabınıza ek <b>Magnum Kredisi</b> yüklenecektir. KTÜN öğrencileri adına teşekkür ederiz!</i>",
-        file_name,
+        escape(file_name),
         file_size as f64 / 1024.0,
         dept_display,
-        caption.map(|c| format!("📝 <b>Not Açıklaması:</b> <i>{}</i>\n", c)).unwrap_or_default()
+        caption.map(|c| format!("📝 <b>Not Açıklaması:</b> <i>{}</i>\n", escape(c))).unwrap_or_default()
     );
 
     bot.send_message(chat_id, confirmation_text)
